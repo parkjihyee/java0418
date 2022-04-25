@@ -8,7 +8,16 @@ public class HomeworkProgram {
 	int eng;
 	int math;
 	
+	//디폴트 생성자 정보를 밖에서 가져오거나, 내가 생성하거나.
+	//this는 인스턴스를 가리킨다.
+	//클래스(=설계도)는 하나지만 이것을 기반으로 만들어지는 것이 인스턴스(=물건)
 	
+	//방법1
+	//public Student() {} 
+	//(공유폴더보고 필기 다시 하기)
+	
+	//생성자를 만드는 방법과 다른 점: getset을 쓰면 들어오는 데이터가 유효한지 아닌지까지 알 수 있음
+	//방법2
 	public int getStudentNo() {
 		return studentNo;
 	}

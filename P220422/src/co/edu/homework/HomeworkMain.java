@@ -15,8 +15,9 @@ public class HomeworkMain {
 			System.out.println("1.학생수 | 2.학생 정보 입력 | 3.학생 정보 출력 | 4.순위 | 5.종료");
 			System.out.println("===================================================");
 			
-			menu = Integer.parseInt(sc.nextLine());
+			int menu = Integer.parseInt(sc.nextLine());
 			
+			int money;
 			if(menu==1) {
 				System.out.println("학생수>");
 				money = Integer.parseInt(sc.nextLine());
@@ -34,4 +35,5 @@ public class HomeworkMain {
 		}
 	}
 
+}
 }
