@@ -13,7 +13,8 @@ public class EmpDept extends Employee{
 	
 	//메소드
 	@Override
-	public void 
+	public void getInformation() {
+		System.out.println("이름: " + this.name + "연봉: " + this.salary + "부서: " + this.dept);
 		
 	}
 }

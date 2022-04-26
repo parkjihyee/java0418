@@ -15,15 +15,10 @@ public class Employee {
 	}
 
 	//메소드
+	public void getInformation() {
+		System.out.println("이름: " + this.name + "연봉: " + this.salary);
 	
-	public String getName() {
-		System.out.println();
-		return name;
-	}
 
-	public int getSalary() {
-		System.out.println();
-		return salary;
 	}
 	
 	
