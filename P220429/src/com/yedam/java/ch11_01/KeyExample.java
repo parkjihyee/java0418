@@ -23,4 +23,4 @@ public class KeyExample {
 	}
 
 }
-//물리적으로 서로 다른 존재를 논리적(맥락적)으로 같다고 보는것. hashcode와 equals를 오버라이딩해서.
+//물리적으로 서로 다른 존재를 논리적(맥락적)으로 같다고 보는것. hashCode와 equals를 오버라이딩해서.
