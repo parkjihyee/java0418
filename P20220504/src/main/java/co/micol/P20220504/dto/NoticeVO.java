@@ -10,8 +10,7 @@ public class NoticeVO {
 	private Date wdate;			//작성일자
 	private int hit;			//조회수
 	
-	public NoticeVO() {
-	}
+	public NoticeVO() {}
 
 	public int getId() {
 		return id;
