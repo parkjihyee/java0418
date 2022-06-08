@@ -1,4 +1,4 @@
-package co.library.P220517.book;
+package co.miniprj.library.book;
 
 import java.io.Serializable;
 
